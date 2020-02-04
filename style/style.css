@@ -69,10 +69,21 @@ body .topB{
 
 .aboutMe{
     height: 340px;
-    background-color: #2eb398;
+    /* background-color: #2eb398; */
+    background-color: #ffb398;
     font-family: 'Maven Pro', sans-serif;
     font-size: large;
+    border:68px 120px 68px 120px;
 }
+
+.aboutMeContent{
+    background-color: #ffffff;
+    height: 105px;
+    width: 780px;
+    
+}
+.aboutMeText p{
+    font-size: xx-large;}
 
 .getInTouch{
     height: 560px;
