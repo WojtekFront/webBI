@@ -1,0 +1,99 @@
+body{
+    width: 1020px;
+    height: 1738px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    .getInTouch{
+        height: 550px;
+        background-color: #323232;
+        padding:68px 120px 0px 120px;
+        margin: 0;
+        border: 0;
+    }
+
+
+.form{
+    width: 580px;
+    
+    float: left;
+    padding:0px;
+        margin: 0px 20px 0px 0px;
+        border: 0;
+        padding: 0;
+    border: 0;
+    
+}
+
+.formDe{
+    height: 68px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.formDe h3{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:400px;
+    font-size: 30px;
+    color: #e0e0e0;
+}
+
+.formDe h4{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight:400px;
+    font-size: 18px;
+    color: #bebebe;
+}
+
+
+.form-group textarea:focus,
+.form-group textarea:hover,
+.form-group input:focus,
+.form-group input:hover,
+.form-group textarea,
+.form-group input{
+    width:580px;
+    background-color: #454545;
+    color: #bebebe;
+    font-family: 'Lato', sans-serif; 
+    font-weight:400;
+    font-size: 12px;
+    border: 0px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    resize: none;
+}
+.form-group button{
+    float: right;
+    font-family: 'Lato', sans-serif; 
+    font-weight:400;
+    font-size: 12px;
+
+}
+
+
+.contact{
+    margin: 0px 0px 0px 0px;
+    float: right;
+    max-width: 170px;
+}
+#LB{
+    color:#454545;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 700;
+    font-size: 12px;
+}
+#LR{ 
+    color:#454545;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 400;
+    font-size: 12px;
+}
+
+address{
+    color:#bebebe;
+    font-family: 'Lato', sans-serif; 
+    font-weight: 700;
+    font-size: 12px;
+} 

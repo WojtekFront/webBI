@@ -90,10 +90,43 @@
 </div><!--close aboutMe-->
 
 <div class="getInTouch"><!--open getInTouch-->
+    <div class="formDe">
+        <h3>Get In Touch</h3>
+        <h4>In order to get in touch use the contact form below:</h4>
+    </div><!--close formDe-->
+<div class="form">
 
+<form>
+  <div class="form-group">
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name (Required)" required>
+  </div>
+  <div class="form-group">
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email (Required)" required>
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject (Required)" >
+  </div>
 
+  <div class="form-group">
+    <textarea class="form-control" id="descText" rows="8" placeholder="Write your message here..." required></textarea >
+  </div>
+  <div class="form-group">
+  <button type="submit" class="btn btn-primary">SEND</button>
+  </div>
+</form>
+</div><!--close form-->
+<div class="contact">
+<div class="infoContact">
+    <p id="LB">Quisque Hendrerit:</p><p id="LR"> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae. </p>
+</div>
 
+<address><!-- -->
+Elm St. 14/05 Lost City 
++ 3528 331 86 35 
+info@hexalcorp.com
+</address>
 
+</div><!--close contact-->
 </div><!--close getInTouch-->
 
 <footer>
