@@ -4,37 +4,15 @@ font-family: 'Lato', sans-serif;
 */
 
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,900|Maven+Pro:400,500,600,900&display=swap&subset=latin-ext');
-*,
+
+
 body{
     width: 1020px;
-    
     margin-right: auto;
     margin-left: auto;
    display: block;
-    
-}
+    }
 /* ---------- head ----------- */
-
-nav{
-    background-color:#323232;
-    
-} 
-/* .tt,
-.custom-toggler, .navbar-toggler-icon,
-.bg-dark,
-.navbar-dark{ */
-    /* background-color:#323232;
-    border-color: #323232;
-    padding:0px;
-    margin: 0px;
-    height: 63px; 
-}*/
-
-/* body .topA{
-    background-color:#323232;
-    height: 62px;
-    width: 100%;
-} */
 
 body .topB{
     height: 30px;
@@ -286,7 +264,7 @@ footer{
 
 /* media 1000 */
 @media only screen and (max-width: 1000px){
-    *,
+    
     body{
         width: 100%;
         height: auto;
@@ -312,11 +290,11 @@ footer{
         z-index: -2;
     
     }
-    .triangle{
+    /* .triangle{
         display: none;
        
     }
-    
+     */
     .navbar-nav a:visited,
     .navbar-nav a{
         font-size: 12px;
