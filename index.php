@@ -8,8 +8,39 @@
     <title>Document1</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    
-     <link href="style/styleCsscopy.css" type="text/css" rel="stylesheet"> 
+
+<script>  
+
+
+function validateform(){  
+let name=document.myform.name.value;
+let subject=document.myform.subject.value;  
+let message=document.myform.message.value;    
+let x=document.myform.email.value;  
+let atposition=x.indexOf("@");  
+let dotposition=x.lastIndexOf(".");  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}
+  else if(subject==null || subject==""){  
+  alert("Subject can't be blank.");  
+  return false;  
+}
+  else if(message==null || message=="" || message.length>61){  
+  alert("Message can't be blank and a maximum of 60 characters.");  
+  return false;  
+}
+else if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+  alert("Wrong email");  
+  return false;  
+}  
+}
+
+</script>  
+
+    <link href="style/styleCsscopy.css" type="text/css" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Maven+Pro:400,500,600,900&display=swap&subset=latin-ext" rel="stylesheet">     
 
     
@@ -21,7 +52,7 @@
 <div class="container"><!--open container  -->
 
 <div class="row">
-    <nav class="navbar navbar-expand-md navbar-mymenu bg-dark col-sm-12 justify-content-center"><!--open topA bootstrap navbar-->
+  <nav class="navbar navbar-expand-md navbar-mymenu bg-dark col-sm-12 justify-content-center"><!--open topA bootstrap navbar-->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainmenu"
       aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
@@ -64,7 +95,7 @@
 
   <div class="content"> <!--open content-->
 
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   
           <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -130,21 +161,26 @@
       </div><!--close formDe-->
       <div class="form">
 
-        <form>
+
+
+
+
+
+        <form name="myform" method="post" onsubmit="return validateform()" action="#" require>
           <div class="form-group">
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name (Required)" required>
+            <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Name (Required)" require>
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email (Required)" required>
+            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Email (Required)" require>
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject (Required)" >
+            <input type="text" name="subject" class="form-control" id="exampleFormControlInput1" placeholder="Subject (Required)" require>
           </div>
           <div class="form-group">
-            <textarea class="form-control" id="descText" rows="8" placeholder="Write your message here..." required></textarea >
+            <textarea name="message" class="form-control" id="descText" rows="8" placeholder="Write your message here..."  require></textarea >
           </div>
           <div class="form-group">
-            <button type="submit" class="btn btn-primary">SEND</button>
+            <button type="submit" value="SEND" class="btn">SEND</button>
           </div>
         </form>
       </div><!--close form-->
