@@ -21,7 +21,7 @@
 <div class="container"><!--open container  -->
 
 <div class="row">
-    <nav class="navbar navbar-expand-lg  navbar-expand-md navbar-dark bg-dark col-sm-12"><!--open topA bootstrap navbar-->
+    <nav class="navbar navbar-expand-lg  navbar-expand-md navbar-dark bg-dark col-sm-12 justify-content-center"><!--open topA bootstrap navbar-->
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,30 +29,30 @@
           
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-item nav-link nstyle" href="#">PORTFOLIO</a>
+              <a class="nav-item nav-link" href="#">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item nav-link nstyle" href="#">ABOUT</a>
+              <a class="nav-item nav-link" href="#">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-item nav-link nstyle" href="#"style="width:100px"><img src="img/logo.png" class="logo" alt="..."></a>
+              <a class="nav-item nav-link" href="#"style="width:100px"><img src="img/logo.png" class="logo" alt="..."></a>
             </li>
             <li class="nav-item">
-              <a class="nav-item nav-link nstyle" href="#">BLOG</a>
+              <a class="nav-item nav-link" href="#">BLOG</a>
             </li>
             <li class="nav-item"> 
-              <a class="nav-item nav-link nstyle" href="#">GET IN TOUCH</a>
+              <a class="nav-item nav-link" href="#">GET IN TOUCH</a>
             </li>
           </ul>
         
         
       </div>
   </nav><!--close topA--> 
-  </div><!-- close row -->
+  
       
   <div class="col-sm-12 head"><!--open head-->
 
-  <div class=" triangle"><!--open triangle-->
+  <div class=" triangle justify-content-center"><!--open triangle-->
   </div><!--close triangle-->
 
   </div><!--close head-->
@@ -97,7 +97,7 @@
 
 
 
-  <div class="aboutMe"><!--open aboutMe-->
+  <div class="aboutMe d-block col-sm-12"><!--open aboutMe-->
     <div class="aboutMeContent"><!--open aboutMeContent-->
 
       <div class=" col-sm-3 aboutMePicture">
@@ -118,7 +118,7 @@
 
 
 
-  <div class="getInTouch"><!--open getInTouch-->
+  <div class="d-block col-sm-12 getInTouch"><!--open getInTouch-->
       <div class="formDe">
           <h3>Get In Touch</h3>
           <h4>In order to get in touch use the contact form below:</h4>
@@ -157,7 +157,7 @@
     </div><!--close contact-->
   </div><!--close getInTouch-->
 
-  <footer>
+  <footer class="col-sm-12">
     <p>© Copyright 2013 by PSDchat</p>
   </footer>
       
@@ -169,7 +169,7 @@
 
 
 
-
+  </div><!-- close row -->
 </div><!--close container-->
 </body>
 </html>

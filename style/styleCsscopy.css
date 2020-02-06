@@ -13,7 +13,14 @@ body{
    display: block;
     }
 /* ---------- head ----------- */
-
+nav{
+    
+    height: 67px;
+}
+ul li{
+    margin-top: auto;
+    margin-bottom: auto;
+}
 body .topB{
     height: 30px;
     
@@ -90,6 +97,7 @@ body .topB{
     font-size: large;
     padding:68px 120px 68px 120px;
 }
+nav
 
 .aboutMeContent{
     height: 105px;
@@ -138,7 +146,7 @@ body .topB{
 
 /* ---------- getInTouch ----------- */
 .getInTouch{
-    height: 550px;
+    min-height:  550px;
     background-color: #323232;
     padding:68px 120px 0px 120px;
     margin: 0;
@@ -240,11 +248,18 @@ address{
 
 /* ---------- footer ----------- */
 footer{
+
     height: 42px;
     background-color: #222222;
     color:#454545;
     font-size: 12px;
     padding-left: 40px;
+    margin: 0px;
+}
+
+footer p{
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 
@@ -276,13 +291,9 @@ footer{
     /* ---------- head ----------- */
     
     .head{
-        height: 100px;
+        height: auto;
     }
-    body .topA{
-        background-color:#323232;
-        height: 62px;
-        width: 100%;
-    }
+   
     
     body .topB{
         height: 30px;
@@ -290,12 +301,8 @@ footer{
         z-index: -2;
     
     }
-    /* .triangle{
-        display: none;
-       
-    }
-     */
-    .navbar-nav a:visited,
+  
+    /* .navbar-nav a:visited,
     .navbar-nav a{
         font-size: 12px;
         color: #ffffff;
@@ -308,7 +315,7 @@ footer{
         color: #2eb398;
         font-family: 'Lato', sans-serif; 
         font-weight:700;
-        }
+        } */
     
     /* ---------- portfolio ----------- */
     
@@ -341,9 +348,10 @@ footer{
     /* ---------- aboutMe ----------- */
     
     .aboutMe{
-        width:100%;
+        height: auto;
+
         padding:10px;
-        display: contents;
+        
         margin: auto;
     }
     
@@ -353,14 +361,12 @@ footer{
         margin: auto;
         padding: 10px;
         border: 0;
-        display: contents;
+        
     }
-    .aboutMePicture img,
-    .aboutMePicture{
-        display: flex;
+    .aboutMePicture img    {
         float: center;
-        width: 100%;
-        margin: 0;
+        margin-right: auto;
+        margin-right: auto;
         padding: 0px;
         border: 0;
     }
@@ -398,7 +404,7 @@ footer{
         height: auto;
         background-color: #323232;
         padding:10px 10px 10px 10px;;
-        margin: 0px 0px 0px 0px;
+        margin: auto;
         border: 0;
     }
     
@@ -407,7 +413,6 @@ footer{
         float: center;
         padding:0px;
         margin: 0px;
-        
     }
     
     .formDe{
@@ -431,7 +436,6 @@ footer{
         color: #bebebe;
     }
     
-    
     .form-group textarea:focus,
     .form-group textarea:hover,
     .form-group input:focus,
@@ -454,6 +458,7 @@ footer{
         -webkit-appearance:none;
         box-shadow: none !important;
     }
+
     .form-group button:focus,
     .form-group button:hover,
     .form-group button{
@@ -463,15 +468,15 @@ footer{
         font-size: 12px;
         background-color: #2eb398;
         border: 0px;
-        
         border: 0;
         margin: 0;
     }
     
     .contact{
-        margin: 0px 0px 0px 0px;
+        display: inline;
+        margin: auto;
         float: none;
-        max-width: 100%;
+        max-width: auto;
     }
     #LB{
         color:#454545;
