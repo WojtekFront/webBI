@@ -7,15 +7,45 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Maven+Pro:400,500,600,900&display=swap&subset=latin-ext" rel="stylesheet">    
-    <link href="style/styleCssCopy.css" type="text/css" rel="stylesheet">
+    <link href="style/style.css" type="text/css" rel="stylesheet">
 
     <title>Document</title>
 </head>
 <body>
    
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark  tt"><!--open topA bootstrap navbar-->
+<nav class="navbar navbar-expand-lg  navbar-expand-md navbar-dark bg-dark"><!--open topA bootstrap navbar-->
+<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+  <div class="collapse navbar-collapse justify-content-center " id="navbarMenu" id="navbarNavAltMarkup">
+       
+      <ul class="navbar-nav">
+     <li class="nav-item">
+      <a class="nav-item nav-link nstyle" href="#">PORTFOLIO</a>
+</li><li class="nav-item">
+      <a class="nav-item nav-link nstyle" href="#">ABOUT</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-item nav-link nstyle" href="#"style="width:100px"></a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-item nav-link nstyle" href="#">BLOG</a>
+      </li>
+      <li class="nav-item"> 
+      <a class="nav-item nav-link nstyle" href="#">GET IN TOUCH</a>
+      </li>
+    </ul>
+    
+    <img src="img/logo.png" class="logo" alt="...">
+</div>
+
+
+</nav><!--close topA--> 
+
+
+<nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-xl navbar-dark bg-dark  tt"><!--open topA bootstrap navbar-->
 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -63,15 +93,15 @@
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
  
-<ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-  </ol>
+        <ol class="carousel-indicators">
+         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+        </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="img/pic2.jpg"  class="d-block w-100" alt=".">
@@ -93,26 +123,26 @@
     </div>
 
 
-  </div>
-</div>
-</div><!--close content-->
+  </div><!-- close carousel-inner -->
+</div><!-- close carouselExampleIndicators -->
+</div><!-- close content -->
 
 
 
 <div class="aboutMe"><!--open aboutMe-->
-<div class="aboutMeContent"><!--open aboutMeContent-->
+  <div class="aboutMeContent"><!--open aboutMeContent-->
 
-<div class="aboutMePicture">
-  <img src="img/portAutor.jpg">
-</div><!-- close aboutMePicture -->
+    <div class="aboutMePicture">
+      <img src="img/portAutor.jpg">
+    </div><!-- close aboutMePicture -->
 
-<div class="aboutMeText">
-  <h1>Smith Anderson</h1>
-  <h2>Illustrator & Character Designer</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
-</div><!--aboutMeText-->
+    <div class="aboutMeText">
+      <h1>Smith Anderson</h1>
+      <h2>Illustrator & Character Designer</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+    </div><!--aboutMeText-->
 
-</div><!--close aboutMeContent-->
+  </div><!--close aboutMeContent-->
 </div><!--close aboutMe-->
 
 

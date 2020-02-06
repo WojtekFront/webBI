@@ -16,9 +16,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
   <div class="collapse navbar-collapse justify-content-center " id="navbarMenu" id="navbarNavAltMarkup">
-   
-    
-    
+       
       <ul class="navbar-nav">
      <li class="nav-item">
       <a class="nav-item nav-link nstyle" href="#">PORTFOLIO</a>
