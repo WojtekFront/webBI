@@ -21,27 +21,32 @@
 <div class="container"><!--open container  -->
 
 <div class="row">
-    <nav class="navbar navbar-expand-lg  navbar-expand-md navbar-dark bg-dark col-sm-12 justify-content-center"><!--open topA bootstrap navbar-->
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+    <nav class="navbar navbar-expand-md navbar-mymenu bg-dark col-sm-12 justify-content-center"><!--open topA bootstrap navbar-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainmenu"
+      aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-center " id="navbarMenu" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse justify-content-center" id="mainMenu" id="navbarNavAltMarkup">
           
-          <ul class="navbar-nav">
+           <ul class="navbar-nav col-sm-3 justify-content-center" >
             <li class="nav-item">
-              <a class="nav-item nav-link" href="#">PORTFOLIO</a>
+              <a class="nav-link" href="#">PORTFOLIO</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-item nav-link" href="#">ABOUT</a>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">ABOUT</a>
             </li>
+            </ul> 
+            <ul class="navbar-nav justify-content-center tt">
             <li class="nav-item">
-              <a class="nav-item nav-link" href="#"style="width:100px"><img src="img/logo.png" class="logo" alt="..."></a>
+              <a class="nav-link" href="#"><img src="img/logo.png" class="logo img-fluid justify-content-center" alt="..."></a>
             </li>
+            </ul>
+            <ul class="navbar-nav col-sm-3 justify-content-center">
             <li class="nav-item">
-              <a class="nav-item nav-link" href="#">BLOG</a>
+              <a class="nav-link" href="#">BLOG</a>
             </li>
             <li class="nav-item"> 
-              <a class="nav-item nav-link" href="#">GET IN TOUCH</a>
+              <a class="nav-link" href="#">GET IN TOUCH</a>
             </li>
           </ul>
         
