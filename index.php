@@ -52,7 +52,7 @@ else if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){
 <div class="container"><!--open container  -->
 
 <div class="row">
-  <nav class="navbar navbar-expand-md navbar-mymenu bg-dark col-sm-12 justify-content-center"><!--open topA bootstrap navbar-->
+  <nav class="navbar navbar-expand-md navbar-mymenu bg-dark col-sm-12 justify-content-center" id="top"><!--open topA bootstrap navbar-->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainmenu"
       aria-expanded="false">
         <span class="navbar-toggler-icon"></span>
@@ -61,15 +61,15 @@ else if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){
           
            <ul class="navbar-nav col-sm-3 justify-content-center" >
             <li class="nav-item">
-              <a class="nav-link" href="#">PORTFOLIO</a>
+              <a class="nav-link" href="#content">PORTFOLIO</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="#">ABOUT</a>
+              <a class="nav-link" href="#aboutMe">ABOUT</a>
             </li>
             </ul> 
             <ul class="navbar-nav justify-content-center tt">
             <li class="nav-item">
-              <a class="nav-link" href="#"><img src="img/logo.png" class="logo img-fluid justify-content-center" alt="..."></a>
+              <a class="nav-link" href="#top"><img src="img/logo.png" class="logo img-fluid justify-content-center" alt="..."></a>
             </li>
             </ul>
             <ul class="navbar-nav col-sm-3 justify-content-center">
@@ -77,7 +77,7 @@ else if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){
               <a class="nav-link" href="#">BLOG</a>
             </li>
             <li class="nav-item"> 
-              <a class="nav-link" href="#">GET IN TOUCH</a>
+              <a class="nav-link" href="#getInTouch">GET IN TOUCH</a>
             </li>
           </ul>
         
@@ -93,7 +93,7 @@ else if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){
 
   </div><!--close head-->
 
-  <div class="content"> <!--open content-->
+  <div class="content" id="content"> <!--open content-->
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   
@@ -133,7 +133,7 @@ else if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){
 
 
 
-  <div class="aboutMe d-block col-sm-12"><!--open aboutMe-->
+  <div class="aboutMe d-block col-sm-12" id="aboutMe"><!--open aboutMe-->
     <div class="aboutMeContent"><!--open aboutMeContent-->
 
       <div class=" col-sm-3 aboutMePicture">
@@ -154,7 +154,7 @@ else if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){
 
 
 
-  <div class="d-block col-sm-12 getInTouch"><!--open getInTouch-->
+  <div class="d-block col-sm-12 getInTouch" id="getInTouch"><!--open getInTouch-->
       <div class="formDe">
           <h3>Get In Touch</h3>
           <h4>In order to get in touch use the contact form below:</h4>
