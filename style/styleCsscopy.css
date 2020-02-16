@@ -277,6 +277,9 @@ address{
     font-weight: 700;
     font-size: 12px;
 } 
+.icon{
+    color:#2eb398;
+}
 
 /* ---------- footer ----------- */
 footer{

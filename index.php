@@ -10,37 +10,36 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
 <script>  
-
-
-function validateform(){  
-let name=document.myform.name.value;
-let subject=document.myform.subject.value;  
-let message=document.myform.message.value;    
-let x=document.myform.email.value;  
-let atposition=x.indexOf("@");  
-let dotposition=x.lastIndexOf(".");  
-  
-if (name==null || name==""){  
-  alert("Name can't be blank");  
-  return false;  
-}
-  else if(subject==null || subject==""){  
-  alert("Subject can't be blank.");  
-  return false;  
-}
-  else if(message==null || message=="" || message.length>61){  
-  alert("Message can't be blank and a maximum of 60 characters.");  
-  return false;  
-}
-else if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
-  alert("Wrong email");  
-  return false;  
-}  
-}
-
+  function validateform(){  
+  let name=document.myform.name.value;
+  let subject=document.myform.subject.value;  
+  let message=document.myform.message.value;    
+  let x=document.myform.email.value;  
+  let atposition=x.indexOf("@");  
+  let dotposition=x.lastIndexOf(".");  
+    
+  if (name==null || name==""){  
+    alert("Name can't be blank");  
+    return false;  
+  }
+    else if(subject==null || subject==""){  
+    alert("Subject can't be blank.");  
+    return false;  
+  }
+    else if(message==null || message=="" || message.length>61){  
+    alert("Message can't be blank and a maximum of 60 characters.");  
+    return false;  
+  }
+  else if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){  
+    alert("Wrong email");  
+    return false;  
+  }  
+  }
 </script>  
 
+    <link href="css/fontello.css" type="text/css" rel="stylesheet"> 
     <link href="style/styleCsscopy.css" type="text/css" rel="stylesheet"> 
+
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Maven+Pro:400,500,600,900&display=swap&subset=latin-ext" rel="stylesheet">     
 
     
@@ -190,9 +189,9 @@ else if (atposition<1 || dotposition<atposition+2 || dotposition+2>=x.length){
       </div>
 
       <address><!-- open address -->
-        Elm St. 14/05 Lost City <br/>
-        + 3528 331 86 35 <br/>
-        info@hexalcorp.com
+      <i class="icon-location icon"></i>Elm St. 14/05 Lost City <br/>
+      <i class="icon-phone icon"></i>  + 3528 331 86 35 <br/>
+      <i class="icon-mail-alt icon"></i>  info@hexalcorp.com
       </address><!--close address-->
 
     </div><!--close contact-->
