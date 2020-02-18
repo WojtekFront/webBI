@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+
 </head>
 <body>
     
 <?php
+session_start();
 // Import PHPMailer classes into the global namespace
 // These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
@@ -34,15 +36,27 @@ try {
     $mail->CharSet = "UTF-8";
     $mail->setLanguage('pl', '/phpmailer/language');
 
+
+
+
+// name, email, subject, message
+$name=$_POST["name"];
+$email=$_POST["email"];
+$subject=$_POST["subject"];
+$message=$_POST["message"];
+
+
+
+
     // Attachments
    // $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
    //$mail->addAttachment('CVLisowski.pdf');    // Optional name
    $mail->setFrom('testkodu1@wp.pl', 'Mailer');
-   $mail->addAddress('testkodu1@wp.pl', 'Joe User');
+   $mail->addAddress($email, $name);
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'zadanie z zajęć';
-    $mail->Body    = '<h1>Test ąęż</h1>';
+    $mail->Subject = 'wiadomosc ze strony Smith Anderson';
+    $mail->Body    = "$subject.<br><br>.$message";
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 for($i=0;$i<=0;$i++){
     $mail->send();}

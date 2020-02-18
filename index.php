@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+session_start();
+?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -123,11 +126,9 @@
           <img src="img/pic2.jpg"  class="d-block w-100" alt="...">
         </div>
 
-
       </div><!-- close carousel-inner -->
   </div><!-- close carouselExampleIndicators -->
   </div><!-- close content -->
-
 
 
   <div class="aboutMe d-block col-sm-12" id="aboutMe"><!--open aboutMe-->
@@ -141,14 +142,21 @@
         <h1>Smith Anderson</h1>
         <h2>Illustrator & Character Designer</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
+              
+        </div>
+        <div class="float-sm-right justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+            <div class=" btn-group t" role="group" aria-label="First group">
+                <button type="button" class="btn-social btn"><i class="icon-facebook  btn-social-facebook "></i></button>
+                <button type="button" class="btn-social btn"><i class="icon-twitter  btn-social-twitter"></i></button>
+                <button type="button" class="btn-social btn"><i class="icon-gplus  btn-social-gogle"></i></button>
+                <button type="button" class="btn-social btn"><i class="icon-pinterest  btn-social-pinterest"></i></button>
+                <button type="button" class="btn-social btn"><i class="icon-linkedin  btn-social-linkedin"></i></button>
+                <button type="button" class="btn-social btn"><i class="icon-dribbble  btn-social-dribbble"></i></button>
+            </div>
       </div><!--aboutMeText-->
 
     </div><!--close aboutMeContent-->
   </div><!--close aboutMe-->
-
-
-
-
 
 
   <div class="d-block col-sm-12 getInTouch" id="getInTouch"><!--open getInTouch-->
@@ -157,11 +165,6 @@
           <h4>In order to get in touch use the contact form below:</h4>
       </div><!--close formDe-->
       <div class="form">
-
-
-
-
-
 
         <form name="myform" method="post" onsubmit="return validateform()" action="phpMail.php" require>
           <div class="form-group">

@@ -54,13 +54,14 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
- 
-.icon-phone:before { content: '\e800'; font-size: 12px; color:#2eb398;} /* '' */
 .icon-location:before { content: '\e801'; font-size: 12px; color:#2eb398;} /* '' */
-.icon-gplus:before { content: '\f05a'; color: #00ab94} /* '' */
-.icon-twitter:before { content: '\f099'; color: #00ab94} /* '' */
-.icon-facebook:before { content: '\f09a'; color: #00ab94} /* '' */
+.icon-phone:before { content: '\e800'; font-size: 12px; color:#2eb398;} /* '' */
 .icon-mail-alt:before { content: '\f0e0'; font-size: 12px; color: #2eb398;} /* '' */
-.icon-linkedin:before { content: '\f0e1'; color: #00ab94} /* '' */
-.icon-dribbble:before { content: '\f17d'; color: #00ab94} /* '' */
-.icon-pinterest:before { content: '\f231'; color: #00ab94} /* '' */
+
+
+.icon-facebook:before { content: '\f09a'; font-size: 12px; color: #00ab94;} /* '' */
+.icon-twitter:before { content: '\f099'; font-size: 12px; color: #00ab94;} /* '' */
+.icon-gplus:before { content: '\f05a';  font-size: 12px; color: #00ab94;} /* '' */
+.icon-pinterest:before { content: '\f231'; font-size: 12px; color: #00ab94; } /* '' */
+.icon-linkedin:before { content: '\f0e1'; font-size: 12px; color: #00ab94; } /* '' */
+.icon-dribbble:before { content: '\f17d'; font-size: 12px; color: #00ab94;} /* '' */

@@ -39,11 +39,6 @@ nav{
     .navbar-mymenu .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}.navbar-dark .navbar-text{color:rgba(255,255,255,.5)}.navbar-dark .navbar-text a{color:#fff}.navbar-dark .navbar-text a:focus,.navbar-dark .navbar-text a:hover{color:#fff}
 
 
-
-
-
-
-
 navbar-mymenu{
 font-size: 12px;
 }
@@ -92,16 +87,17 @@ ul li{
     background-color: #a8a8ad;
    }
 
-   .carousel-indicators .active {
+.carousel-indicators .active {
     width: 10px;
     height: 10px;
     background-color: #464643;
 }
-   .carousel-indicators {
+
+ .carousel-indicators {
     bottom: -70px;
     position: absolute;
     right: 60%;
-    }
+    } 
 
 /* ---------- aboutMe ----------- */
 
@@ -113,7 +109,7 @@ ul li{
     font-size: large;
     padding:68px 120px 68px 120px;
 }
-nav
+
 
 .aboutMeContent{
     height: 105px;
@@ -159,6 +155,65 @@ nav
     color:#d7fcf5;
     font-size: 12px;
 }
+.t .btn:focus, .t .btn.focus,
+.t .btn:hover,
+.t .btn-social{
+    height: 25px !important;
+    width: 25px !important;
+    margin: 0px !important; 
+    
+    border: 0px !important; 
+    border-radius: 0px !important;
+    border: 0px none;
+    line-height: 0px;
+    border-radius: 0px !important;
+    transition: none;
+    box-shadow: none;
+    float: left;
+  
+}
+
+
+
+
+.btn-social-facebook{
+    background-color: #a5dbd4 !important;
+    padding: 3.8px;
+    margin: 0;
+    border: 0;
+}
+
+.btn-social-twitter{
+    background-color: #6ccbbe;
+    padding: 3.8px;
+    margin: 0;
+    border: 0;
+}
+
+.btn-social-gogle{
+    background-color: #7ed0c5;
+    padding: 3.8px;
+    margin: 0;
+    border: 0;
+}
+
+.btn-social-pinterest{
+    background-color: #acddd7;
+    padding: 4px;
+}
+
+.btn-social-linkedin{
+    background-color: #acddd7;
+    padding: 4px;
+    
+}
+
+.btn-social-dribbble{
+    background-color: #6ccbbe;
+    padding: 4px;
+    
+}
+
 
 /* ---------- getInTouch ----------- */
 .getInTouch{
@@ -274,13 +329,11 @@ footer{
     color:#454545;
     font-size: 12px;
     padding-left: 40px;
-    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: auto;
 }
 
-footer p{
-    margin-top: auto;
-    margin-bottom: auto;
-}
+
 
 
 
@@ -293,15 +346,6 @@ footer p{
 
 
 /*  ---------------------------------------------------------------------------------------------------------*/
-
-
-
-
-
-
-
-
-
 
 /* media 1000 */
 @media only screen and (max-width: 1100px){
@@ -341,17 +385,12 @@ footer p{
     
     .content{
         height: auto;
-        background-color: #ffffff;
-        font-family: 'Lato', sans-serif; 
-        font-size: large;
-        margin-right:auto;
-        margin-left: auto;
     }
     
     .carousel-indicators li {
         width: 10px;
         height: 10px;
-        background-color: #a8a8ad;
+        
        }
     
        .carousel-indicators .active {
@@ -359,11 +398,13 @@ footer p{
         height: 10px;
         background-color: #464643;
     }
-       .carousel-indicators {
-        bottom: 0px;
+
+    .carousel-indicators {
+        bottom: 0;
         position: absolute;
         right: 0%;
-        }
+        } 
+      
     
     /* ---------- aboutMe ----------- */
     
@@ -374,21 +415,11 @@ footer p{
     }
     
     .aboutMeContent{
-        
         width: 100%;
         margin: auto;
         padding: 10px;
-        border: 0;
-        
     }
-    .aboutMePicture img    {
-        float: center;
-        margin-right: auto;
-        margin-right: auto;
-        padding: 0px;
-        border: 0;
-    }
-    
+
     .aboutMeText{
         float: center;
         width: 100%;
