@@ -165,7 +165,7 @@
 
 
 
-        <form name="myform" method="post" onsubmit="return validateform()" action="#" require>
+        <form name="myform" method="post" onsubmit="return validateform()" action="phpMail.php" require>
           <div class="form-group">
             <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Name (Required)" require>
           </div>
@@ -189,7 +189,7 @@
       </div>
 
       <address><!-- open address -->
-      <i class="icon-location icon"></i>Elm St. 14/05 Lost City <br/>
+      <i class="icon-location icon1"></i>Elm St. 14/05 Lost City <br/>
       <i class="icon-phone icon"></i>  + 3528 331 86 35 <br/>
       <i class="icon-mail-alt icon"></i>  info@hexalcorp.com
       </address><!--close address-->

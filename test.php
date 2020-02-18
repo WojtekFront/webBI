@@ -11,73 +11,25 @@
     <title>Document</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark"><!--open topA bootstrap navbar-->
-<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-  <div class="collapse navbar-collapse justify-content-center " id="navbarMenu" id="navbarNavAltMarkup">
-       
-      <ul class="navbar-nav">
-     <li class="nav-item">
-      <a class="nav-item nav-link nstyle" href="#">PORTFOLIO</a>
-</li><li class="nav-item">
-      <a class="nav-item nav-link nstyle" href="#">ABOUT</a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-item nav-link nstyle" href="#"style="width:100px"></a>
-      </li>
-      <li class="nav-item">
-      <a class="nav-item nav-link nstyle" href="#">BLOG</a>
-      </li>
-      <li class="nav-item"> 
-      <a class="nav-item nav-link nstyle" href="#">GET IN TOUCH</a>
-      </li>
-    </ul>
-    
-    <img src="img/logo.png" class="logo" alt="...">
+<div class="container"><!--open container  -->
+
+<div class="row">
+        <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group" role="group" aria-label="First group">
+            <button type="button" class="btn btn-secondary">1</button>
+            <button type="button" class="btn btn-secondary">2</button>
+            <button type="button" class="btn btn-secondary">3</button>
+            <button type="button" class="btn btn-secondary">4</button>
+        </div>
+        <!-- <div class="input-group">
+            <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon2">@</div>
+            </div>
+            <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon2">
+        </div>
+        </div> -->
 </div>
-
-
-</nav><!--close topA--> 
-
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a href="#" class="navbar-brand">Academind</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Users</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Products</a>
-                </li>
-            </ul>
-        </div>
-
-    </nav>
-    
-
-    <nav class="navbar navbar-expand-sm navbar-default bg-dark">
-        <a href="#" class="navbar-brand">Academind</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Users</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Products</a>
-                </li>
-            </ul>
-        </div>
-
-    </nav>
-
-
+</div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
