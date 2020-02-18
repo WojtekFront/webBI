@@ -64,6 +64,9 @@ for($i=0;$i<=0;$i++){
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
+
+header("Location: index.php");
+  exit;
 ?>
 </body>
 </html>
