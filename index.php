@@ -186,13 +186,13 @@ session_start();
       </div><!--close form-->
     <div class="contact">
       <div class="infoContact">
-        <p id="LB">Quisque Hendrerit:</p><p id="LR"> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae. </p>
+      <p  id="LR"> <span id="LB">Quisque Hendrerit:</span> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae. </p>
       </div>
 
       <address><!-- open address -->
-      <i class="icon-location icon1"></i>Elm St. 14/05 Lost City <br/>
-      <i class="icon-phone icon"></i>  + 3528 331 86 35 <br/>
-      <i class="icon-mail-alt icon"></i>  info@hexalcorp.com
+      <i class="icon-location icon1"></i>   Elm St. 14/05 Lost City <br/>
+      <i class="icon-phone icon"></i>   + 3528 331 86 35 <br/>
+      <i class="icon-mail-alt icon"></i>   info@hexalcorp.com
       </address><!--close address-->
 
     </div><!--close contact-->

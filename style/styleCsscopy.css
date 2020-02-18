@@ -293,19 +293,27 @@ ul li{
     margin: 0;
 }
 
+.form-group textarea:focus, .form-group textarea:hover, .form-group input:focus, .form-group input:hover, .form-group textarea, .form-group input{
+    color: #bebebe;
+    padding-left: 15px !important;
+    padding-top: 5px !important;
+    border: 0px !important;
+    margin: 0px !important;
+}
+
 .contact{
     margin: 0px 0px 0px 0px;
     float: right;
     max-width: 170px;
 }
 #LB{
-    color:#454545;
+    color:#e0e0e0;
     font-family: 'Lato', sans-serif; 
     font-weight: 700;
     font-size: 12px;
 }
 #LR{ 
-    color:#454545;
+    color:#bebebe;
     font-family: 'Lato', sans-serif; 
     font-weight: 400;
     font-size: 12px;
@@ -390,8 +398,7 @@ footer{
     .carousel-indicators li {
         width: 10px;
         height: 10px;
-        
-       }
+    }
     
        .carousel-indicators .active {
         width: 10px;
