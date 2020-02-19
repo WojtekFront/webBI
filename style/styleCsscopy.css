@@ -47,15 +47,10 @@ ul li{
     margin-top: auto;
     margin-bottom: auto;
 }
-.triangle,
+
+
 #mainMenu .ul,
 #mainMenu .ul a,
- .logo{
-    display: flex;
-  align-items: center;
-  justify-content: center;
-} 
-
 .triangle{
     width: 0px; 
     height: 0px; 
@@ -70,8 +65,8 @@ ul li{
     z-index: -1;
 }
 
-/* ---------- portfolio ----------- */
 
+/* ---------- portfolio ----------- */
 .content{
     height: 685px;
     background-color: #ffffff;
@@ -231,7 +226,6 @@ ul li{
     margin: 0px 20px 0px 0px;
     border: 0;
     padding: 0;
-    border: 0;
 }
 
 .formDe{
@@ -243,18 +237,17 @@ ul li{
 
 .formDe h3{
     font-family: 'Maven Pro', sans-serif;
-    font-weight:400px;
+    font-weight:400;
     font-size: 30px;
     color: #e0e0e0;
 }
 
 .formDe h4{
     font-family: 'Maven Pro', sans-serif;
-    font-weight:400px;
+    font-weight:400;
     font-size: 18px;
     color: #bebebe;
 }
-
 
 .form-group textarea:focus,
 .form-group textarea:hover,
@@ -278,6 +271,7 @@ ul li{
     -webkit-appearance:none;
     box-shadow: none !important;
 }
+
 .form-group button:active,
 .form-group button:focus,
 .form-group button:hover,
@@ -287,8 +281,6 @@ ul li{
     font-weight:400;
     font-size: 12px;
     background-color: #2eb398 !important;
-    border: 0px;
-    
     border: 0 !important;
     margin: 0;
 }
@@ -302,21 +294,25 @@ ul li{
 }
 
 .contact{
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
     float: right;
     max-width: 170px;
 }
+
 #LB{
     color:#e0e0e0;
     font-family: 'Lato', sans-serif; 
     font-weight: 700;
     font-size: 12px;
+    text-align: left;
 }
+
 #LR{ 
     color:#bebebe;
     font-family: 'Lato', sans-serif; 
     font-weight: 400;
     font-size: 12px;
+    text-align: left;
 }
 
 address{
@@ -324,14 +320,12 @@ address{
     font-family: 'Lato', sans-serif; 
     font-weight: 700;
     font-size: 12px;
+    text-align: left;
 } 
-/* .icon{
-    color:#2eb398;
-} */
+
 
 /* ---------- footer ----------- */
 footer{
-
     height: 42px;
     background-color: #222222;
     color:#454545;
@@ -345,15 +339,11 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
 /*  ---------------------------------------------------------------------------------------------------------*/
+
+
+
+
 
 /* media 1000 */
 @media only screen and (max-width: 1100px){
@@ -364,33 +354,14 @@ footer{
         margin-right: auto;
         margin-left: auto;
         display: block;
-        
     }
+
     nav{
         max-height: 62px;
     }
     
-    
-   
 
-  
-    /* .navbar-nav a:visited,
-    .navbar-nav a{
-        font-size: 12px;
-        color: #ffffff;
-        font-family: 'Lato', sans-serif; 
-        font-weight:700;
-    }
-    
-    .navbar-nav a:hover{
-        font-size: 12px;
-        color: #2eb398;
-        font-family: 'Lato', sans-serif; 
-        font-weight:700;
-        } */
-    
     /* ---------- portfolio ----------- */
-    
     .content{
         height: auto;
     }
@@ -403,18 +374,16 @@ footer{
        .carousel-indicators .active {
         width: 10px;
         height: 10px;
-        background-color: #464643;
     }
 
     .carousel-indicators {
         bottom: 0;
         position: absolute;
         right: 0%;
-        } 
+    } 
       
     
     /* ---------- aboutMe ----------- */
-    
     .aboutMe{
         height: auto;
         padding:10px;
@@ -457,118 +426,40 @@ footer{
     
     /* ---------- getInTouch ----------- */
     .getInTouch{
-        height: auto;
-        background-color: #323232;
+        min-height: none;
         padding:10px 10px 10px 10px;;
-        margin: auto;
-        border: 0;
     }
     
     .form{
-        width: 100%;
         float: center;
-        padding:0px;
         margin: 0px;
+        width: 100%;
     }
     
     .formDe{
         height: auto;
-        padding: 0;
-        border: 0;
-        margin: 0;
     }
     
     .formDe h3{
-        font-family: 'Maven Pro', sans-serif;
-        font-weight:400;
         font-size: 16px;
-        color: #e0e0e0;
     }
     
     .formDe h4{
-        font-family: 'Maven Pro', sans-serif;
-        font-weight:400;
         font-size: 14px;
-        color: #bebebe;
     }
-    
- 
-
-    .form-group button:focus,
-    .form-group button:hover,
-    .form-group button{
-        float: right;
-        font-family: 'Lato', sans-serif; 
-        font-weight:400;
-        font-size: 12px;
-        background-color: #2eb398;
-        border: 0px;
-        border: 0;
-        margin: 0;
-    }
-    
+        
     .contact{
         float: none;
         text-align: center;
-    }
-    #LB{
-        float: none;
-        text-align: center;
-    }
-    #LR{ 
-        float: none;
-        text-align: center;
+        max-width: none;
     }
     
-    address{
-        
-       float: none;
-       text-align: center;
-    } 
-    
-    /* ---------- footer ----------- */
-   
-
-    
-    
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  ---------------------------------------------------------------------------------------------------------*/
 
 
 
-
-
-
+/* 846 */
 @media only screen and (max-width: 846px){
     nav{
         max-height: 62px;
@@ -586,14 +477,18 @@ footer{
         margin-right: 0px;
         margin-left: 0px;
         display: block;
-        
     }
+
+
     /* ---------- head ----------- */
     nav{
         max-height: none;
     }
+
     .tt{
-        display: none;    }
+        display: none;    
+    }
+
     .head{
         height: auto;
     }
@@ -602,17 +497,12 @@ footer{
         height: 30px;
         width: 100%;
         z-index: -2;
-    
     }
   
      
     /* ---------- portfolio ----------- */
-    
     .content{
         height: auto;
-        background-color: #ffffff;
-        font-family: 'Lato', sans-serif; 
-        font-size: large;
         margin-right:auto;
         margin-left: auto;
     }
@@ -626,32 +516,29 @@ footer{
        .carousel-indicators .active {
         width: 10px;
         height: 10px;
-        background-color: #464643;
     }
+
        .carousel-indicators {
         bottom: 0px;
         position: absolute;
         right: 0%;
         }
     
+        
     /* ---------- aboutMe ----------- */
-    
     .aboutMe{
         height: auto;
-
         padding:10px;
-        
         margin: auto;
     }
     
     .aboutMeContent{
-        
         width: 100%;
         margin: auto;
         padding: 10px;
         border: 0;
-        
     }
+
     .aboutMePicture img    {
         float: center;
         margin-right: auto;
@@ -673,7 +560,6 @@ footer{
         padding: 0;
         border: 0;
         font-size: 14px;
-        color:#d7fcf5;
     }
     
     .aboutMeText h2{
@@ -684,119 +570,23 @@ footer{
     }
     
     .aboutMeText p{
-        color:#d7fcf5;
         font-size: 12px;
     }
     
+
     /* ---------- getInTouch ----------- */
-    .getInTouch{
-        height: auto;
-        background-color: #323232;
-        padding:10px 10px 10px 10px;;
-        margin: auto;
-        border: 0;
-    }
-    
     .form{
         width: 100%;
-        float: center;
-        padding:0px;
-        margin: 0px;
     }
-    
-    .formDe{
-        height: auto;
-        padding: 0;
-        border: 0;
-        margin: 0;
-    }
-    
-    .formDe h3{
-        font-family: 'Maven Pro', sans-serif;
-        font-weight:400;
-        font-size: 16px;
-        color: #e0e0e0;
-    }
-    
-    .formDe h4{
-        font-family: 'Maven Pro', sans-serif;
-        font-weight:400;
-        font-size: 14px;
-        color: #bebebe;
-    }
-    
-    .form-group textarea:focus,
-    .form-group textarea:hover,
-    .form-group input:focus,
-    .form-group input:hover,
-    .form-group textarea,
-    .form-group input{
-        width:100%;
-        background-color: #454545;
-        color: #bebebe;
-        font-family: 'Lato', sans-serif; 
-        font-weight:400;
-        font-size: 12px;
-        border: 0px;
-        padding: 0;
-        text-decoration-style: none;
-        border: 0;
-        margin: 0;
-        resize: none;
-        outline:0px !important;
-        -webkit-appearance:none;
-        box-shadow: none !important;
-    }
-    .form-group button:active,
-    .form-group button:focus,
-    .form-group button:hover,
-    .form-group button{
-        float: right;
-        font-family: 'Lato', sans-serif; 
-        font-weight:400;
-        font-size: 12px;
-        background-color: #2eb398;
-        border: 0px;
-        border: 0;
-        margin: 0;
-    }
-    
-    .contact{
         
-        margin: auto;
-        float: none;
-        max-width: auto;
-    }
-    #LB{
-        color:#454545;
-        font-family: 'Lato', sans-serif; 
-        font-weight: 700;
-        font-size: 12px;
-    }
-    #LR{ 
-        color:#454545;
-        font-family: 'Lato', sans-serif; 
-        font-weight: 400;
-        font-size: 12px;
+    .formDe h4{
+        font-size: 14px;
     }
     
-    address{
-        color:#bebebe;
-        font-family: 'Lato', sans-serif; 
-        font-weight: 700;
-        font-size: 12px;
-    } 
     
     /* ---------- footer ----------- */
     footer{
-        height: 42px;
-        background-color: #222222;
-        color:#454545;
-        font-size: 12px;
+        height: 20px;
+        padding-top: 4px;
+        font-size: 8px;
     }
-
-}
-
-
-
-/* 600 */

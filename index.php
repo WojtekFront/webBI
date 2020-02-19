@@ -168,16 +168,16 @@ session_start();
 
         <form name="myform" method="post" onsubmit="return validateform()" action="phpMail.php" require>
           <div class="form-group">
-            <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Name (Required)" require>
+            <input type="text" name="name" class="form-control col-sm-12" id="exampleFormControlInput1" placeholder="Name (Required)" require>
           </div>
           <div class="form-group">
-            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Email (Required)" require>
+            <input type="email" name="email" class="form-control col-sm-12" id="exampleFormControlInput1" placeholder="Email (Required)" require>
           </div>
           <div class="form-group">
-            <input type="text" name="subject" class="form-control" id="exampleFormControlInput1" placeholder="Subject (Required)" require>
+            <input type="text" name="subject" class="form-control col-sm-12" id="exampleFormControlInput1" placeholder="Subject (Required)" require>
           </div>
           <div class="form-group">
-            <textarea name="message" class="form-control" id="descText" rows="8" placeholder="Write your message here..."  require></textarea >
+            <textarea name="message" class="form-control col-sm-12" id="descText" rows="8" placeholder="Write your message here..."  require></textarea >
           </div>
           <div class="form-group">
             <button type="submit" value="SEND" class="btn">SEND</button>
@@ -185,11 +185,11 @@ session_start();
         </form>
       </div><!--close form-->
     <div class="contact">
-      <div class="infoContact">
+      <div class="infoContact pb-lg-4">
       <p  id="LR"> <span id="LB">Quisque Hendrerit:</span> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae. </p>
       </div>
 
-      <address><!-- open address -->
+      <address pd-md-4><!-- open address -->
       <i class="icon-location icon1"></i>   Elm St. 14/05 Lost City <br/>
       <i class="icon-phone icon"></i>   + 3528 331 86 35 <br/>
       <i class="icon-mail-alt icon"></i>   info@hexalcorp.com
