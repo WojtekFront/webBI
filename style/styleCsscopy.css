@@ -12,6 +12,8 @@ body{
     margin-left: auto;
    display: block;
     }
+
+    
 /* ---------- head ----------- */
 nav{
     max-height: 62px;
@@ -155,8 +157,7 @@ ul li{
 .t .btn-social{
     height: 25px !important;
     width: 25px !important;
-    margin: 0px !important; 
-    
+    margin: 0px !important;     
     border: 0px !important; 
     border-radius: 0px !important;
     border: 0px none;
@@ -395,24 +396,15 @@ footer{
     }
     
     .aboutMeText h1{
-        margin: 0;
-        padding: 0;
-        border: 0;
+        
         font-size: 14px;
-        color:#d7fcf5;
+        
     }
     
     .aboutMeText h2{
         font-size: 14px;
-        margin: 0;
-        padding: 0;
-        border: 0;
     }
     
-    .aboutMeText p{
-        color:#d7fcf5;
-        font-size: 12px;
-    }
     
     /* ---------- getInTouch ----------- */
     .getInTouch{
@@ -516,19 +508,6 @@ footer{
     
         
     /* ---------- aboutMe ----------- */
-    .aboutMe{
-        height: auto;
-        padding:10px;
-        margin: auto;
-    }
-    
-    .aboutMeContent{
-        width: 100%;
-        margin: auto;
-        padding: 10px;
-        border: 0;
-    }
-
     .aboutMePicture img    {
         float: center;
         margin-right: auto;
@@ -536,39 +515,8 @@ footer{
         padding: 0px;
         border: 0;
     }
-    
-    .aboutMeText{
-        float: center;
-        width: 100%;
-        margin: 0px;
-        padding: 10px;
-        border: 0px;
-    }
-    
-    .aboutMeText h1{
-        margin: 0;
-        padding: 0;
-        border: 0;
-        font-size: 14px;
-    }
-    
-    .aboutMeText h2{
-        font-size: 14px;
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-    
-    .aboutMeText p{
-        font-size: 12px;
-    }
-    
-
-    /* ---------- getInTouch ----------- */
-    /* .form{
-        width: 100%;
-    } */
         
+    /* ---------- getInTouch ----------- */
     .formDe h4{
         font-size: 14px;
     }
