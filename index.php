@@ -159,33 +159,34 @@ session_start();
   </div><!--close aboutMe-->
 
 
-  <div class="d-block col-sm-12 getInTouch" id="getInTouch"><!--open getInTouch-->
-      <div class="formDe">
+  <div class="d-block col-sm-12 getInTouch " id="getInTouch"><!--open getInTouch-->
+      <div class="formDe col-sm-12 col-md-8">
           <h3>Get In Touch</h3>
           <h4>In order to get in touch use the contact form below:</h4>
       </div><!--close formDe-->
-      <div class="form">
 
-        <form name="myform" method="post" onsubmit="return validateform()" action="phpMail.php" require>
+    <div class="form p-0 col-sm-12 col-md-8 float-md-left mr-md-4">
+      
+      <form name="myform" method="post" onsubmit="return validateform()" action="phpMail.php" require>
           <div class="form-group">
-            <input type="text" name="name" class="form-control col-sm-12" id="exampleFormControlInput1" placeholder="Name (Required)" require>
+            <input type="text" name="name" class="form-control " id="inputlg" placeholder="Name (Required)" require>
           </div>
           <div class="form-group">
-            <input type="email" name="email" class="form-control col-sm-12" id="exampleFormControlInput1" placeholder="Email (Required)" require>
+            <input type="email" name="email" class="form-control col-sm-12" id="inputlg" placeholder="Email (Required)" require>
           </div>
           <div class="form-group">
-            <input type="text" name="subject" class="form-control col-sm-12" id="exampleFormControlInput1" placeholder="Subject (Required)" require>
+            <input type="text" name="subject" class="form-control col-sm-12" id="inputlg" placeholder="Subject (Required)" require>
           </div>
           <div class="form-group">
-            <textarea name="message" class="form-control col-sm-12" id="descText" rows="8" placeholder="Write your message here..."  require></textarea >
+            <textarea name="message" class="form-control" id="descText" rows="8" placeholder="Write your message here..."  require></textarea >
           </div>
           <div class="form-group">
             <button type="submit" value="SEND" class="btn">SEND</button>
           </div>
-        </form>
-      </div><!--close form-->
-    <div class="contact">
-      <div class="infoContact pb-lg-4">
+      </form>
+    </div><!--close form-->
+    <div class="contact col-sm-12 col-md-3 float-md-left">
+      <div class="infoContact pb-md-4">
       <p  id="LR"> <span id="LB">Quisque Hendrerit:</span> purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus morbi vitae. </p>
       </div>
 

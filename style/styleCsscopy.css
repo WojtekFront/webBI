@@ -219,11 +219,11 @@ ul li{
     border: 0;
 }
 
-.form{
-    width: 560px;
+.form1{
+    /* width: 560px; */
     float: left;
     padding:0px;
-    margin: 0px 20px 0px 0px;
+    /* margin: 0px 20px 0px 0px; */
     border: 0;
     padding: 0;
 }
@@ -237,14 +237,14 @@ ul li{
 
 .formDe h3{
     font-family: 'Maven Pro', sans-serif;
-    font-weight:400;
+    font-weight: 400;
     font-size: 30px;
     color: #e0e0e0;
 }
 
 .formDe h4{
     font-family: 'Maven Pro', sans-serif;
-    font-weight:400;
+    font-weight: 400;
     font-size: 18px;
     color: #bebebe;
 }
@@ -255,11 +255,11 @@ ul li{
 .form-group input:hover,
 .form-group textarea,
 .form-group input{
-    width:560px;
+    /* width:560px; */
     background-color: #454545;
     color: #bebebe;
     font-family: 'Lato', sans-serif; 
-    font-weight:400;
+    font-weight: 400;
     font-size: 12px;
     border: 0px;
     padding: 0;
@@ -278,7 +278,7 @@ ul li{
 .form-group button{
     float: right;
     font-family: 'Lato', sans-serif; 
-    font-weight:400;
+    font-weight: 400;
     font-size: 12px;
     background-color: #2eb398 !important;
     border: 0 !important;
@@ -291,12 +291,6 @@ ul li{
     padding-top: 5px !important;
     border: 0px !important;
     margin: 0px !important;
-}
-
-.contact{
-    margin: 0px;
-    float: right;
-    max-width: 170px;
 }
 
 #LB{
@@ -337,11 +331,7 @@ footer{
 
 
 
-
-
 /*  ---------------------------------------------------------------------------------------------------------*/
-
-
 
 
 
@@ -427,13 +417,13 @@ footer{
     /* ---------- getInTouch ----------- */
     .getInTouch{
         min-height: none;
-        padding:10px 10px 10px 10px;;
+         padding:10px 10px 10px 10px;; 
     }
     
     .form{
-        float: center;
+        /* float: center; */
         margin: 0px;
-        width: 100%;
+        /* width: 100%; */
     }
     
     .formDe{
@@ -449,9 +439,9 @@ footer{
     }
         
     .contact{
-        float: none;
+        /* float: none; */
         text-align: center;
-        max-width: none;
+        /* max-width: none; */
     }
     
 
@@ -575,9 +565,9 @@ footer{
     
 
     /* ---------- getInTouch ----------- */
-    .form{
+    /* .form{
         width: 100%;
-    }
+    } */
         
     .formDe h4{
         font-size: 14px;
