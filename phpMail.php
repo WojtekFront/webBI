@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -10,7 +13,7 @@
 <body>
     
 <?php
-session_start();
+
 // Import PHPMailer classes into the global namespace
 // These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
@@ -58,15 +61,21 @@ $message=$_POST["message"];
     $mail->Subject = 'wiadomosc ze strony Smith Anderson';
     $mail->Body    = "$subject.<br><br>.$message";
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+
 for($i=0;$i<=0;$i++){
-    $mail->send();}
-    echo 'Message has been sent';
+        $_SESSION['info'] = '<span style="color:red">wiadomość została wysłana!</span>';
+                header('Location: index.php');
+                $mail->send();
+                exit;}
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    $_SESSION['info'] = '<span style="color:red">Message could not be sent. Mailer Error: {$mail->ErrorInfo};</span>';
+
+    header('Location: index.php');
+    exit;
 }
 
-header("Location: index.php");
-  exit;
+
 ?>
 </body>
 </html>

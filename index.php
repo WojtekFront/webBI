@@ -1,12 +1,13 @@
-<!DOCTYPE html>
 <?php
 session_start();
 ?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Wojciech Lisowski">
    
     <title>Document1</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -47,6 +48,9 @@ session_start();
 </head>
 
 <body>
+<?php
+	if(isset($_SESSION['info']))	echo $_SESSION['info'];
+?>
   
 <div class="container"><!--open container  -->
 
@@ -85,7 +89,7 @@ session_start();
     <div class=" triangle justify-content-center"><!--open triangle-->
     </div><!--close triangle-->
 
-    <div class="content" id="content"> <!--open content-->
+    <div class="content col-sm-12" id="content"> <!--open content-->
 
       <div id="mycarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -117,62 +121,57 @@ session_start();
             <img src="img/pic2.jpg"  class="d-block w-100" alt="...">
           </div>
         </div><!-- close carousel-inner -->
-    </div><!-- close carouselExampleIndicators -->
+      </div><!-- close carouselExampleIndicators -->
     </div><!-- close content -->
 
 
     <div class="aboutMe d-block col-sm-12" id="aboutMe"><!--open aboutMe-->
       <div class="aboutMeContent"><!--open aboutMeContent-->
-
         <div class=" col-sm-3 aboutMePicture">
           <img src="img/portAutor.jpg" class="img-fluid">
         </div><!-- close aboutMePicture -->
-
         <div class="aboutMeText col-sm-7">
           <h1>Smith Anderson</h1>
           <h2>Illustrator & Character Designer</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis, ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna</p>
-                
-          </div>
-          <div class="float-sm-right justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
-              <div class=" btn-group t" role="group" aria-label="First group">
-                  <button type="button" class="btn-social btn"><i class="icon-facebook  btn-social-facebook "></i></button>
-                  <button type="button" class="btn-social btn"><i class="icon-twitter  btn-social-twitter"></i></button>
-                  <button type="button" class="btn-social btn"><i class="icon-gplus  btn-social-gogle"></i></button>
-                  <button type="button" class="btn-social btn"><i class="icon-pinterest  btn-social-pinterest"></i></button>
-                  <button type="button" class="btn-social btn"><i class="icon-linkedin  btn-social-linkedin"></i></button>
-                  <button type="button" class="btn-social btn"><i class="icon-dribbble  btn-social-dribbble"></i></button>
-              </div>
         </div><!--aboutMeText-->
+        <div class="float-sm-right justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+          <div class=" btn-group t" role="group" aria-label="First group">
+            <button type="button" class="btn-social btn"><i class="icon-facebook  btn-social-facebook "></i></button>
+            <button type="button" class="btn-social btn"><i class="icon-twitter  btn-social-twitter"></i></button>
+            <button type="button" class="btn-social btn"><i class="icon-gplus  btn-social-gogle"></i></button>
+            <button type="button" class="btn-social btn"><i class="icon-pinterest  btn-social-pinterest"></i></button>
+            <button type="button" class="btn-social btn"><i class="icon-linkedin  btn-social-linkedin"></i></button>
+            <button type="button" class="btn-social btn"><i class="icon-dribbble  btn-social-dribbble"></i></button>
+          </div>
+        </div>
 
       </div><!--close aboutMeContent-->
     </div><!--close aboutMe-->
 
 
     <div class="d-block col-sm-12 getInTouch " id="getInTouch"><!--open getInTouch-->
-        <div class="formDe col-sm-12 col-md-8">
-            <h3>Get In Touch</h3>
-            <h4>In order to get in touch use the contact form below:</h4>
-        </div><!--close formDe-->
-
+      <div class="formDe col-sm-12 col-md-8 pb-md-4">
+        <h3>Get In Touch</h3>
+        <h4>In order to get in touch use the contact form below:</h4>
+      </div><!--close formDe-->
       <div class="form p-0 col-sm-12 col-md-8 float-md-left mr-md-4">
-        
         <form name="myform" method="post" onsubmit="return validateform()" action="phpMail.php" require>
-            <div class="form-group">
+          <div class="form-group">
               <input type="text" name="name" class="form-control " id="inputlg" placeholder="Name (Required)" require>
-            </div>
-            <div class="form-group">
-              <input type="email" name="email" class="form-control col-sm-12" id="inputlg" placeholder="Email (Required)" require>
-            </div>
-            <div class="form-group">
-              <input type="text" name="subject" class="form-control col-sm-12" id="inputlg" placeholder="Subject (Required)" require>
-            </div>
-            <div class="form-group">
-              <textarea name="message" class="form-control" id="descText" rows="8" placeholder="Write your message here..."  require></textarea >
-            </div>
-            <div class="form-group">
-              <button type="submit" value="SEND" class="btn">SEND</button>
-            </div>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" class="form-control col-sm-12" id="inputlg" placeholder="Email (Required)" require>
+          </div>
+          <div class="form-group">
+            <input type="text" name="subject" class="form-control col-sm-12" id="inputlg" placeholder="Subject (Required)" require>
+          </div>
+          <div class="form-group">
+            <textarea name="message" class="form-control" id="descText" rows="8" placeholder="Write your message here..."  require></textarea >
+          </div>
+          <div class="form-group">
+            <button type="submit" value="SEND" class="btn" role="button">SEND</button>
+          </div>
         </form>
       </div><!--close form-->
       <div class="contact col-sm-12 col-md-3 float-md-left">
@@ -185,16 +184,17 @@ session_start();
           <i class="icon-phone icon"></i>   + 3528 331 86 35 <br/>
           <i class="icon-mail-alt icon"></i>   info@hexalcorp.com
         </address><!--close address-->
-
       </div><!--close contact-->
+
+      <?php
+	if(isset($_SESSION['info']))	echo $_SESSION['info'];
+?>
     </div><!--close getInTouch-->
 
     <footer class="col-sm-12">
       <p>© Copyright 2013 by PSDchat</p>
     </footer>
-        
-
-
+       
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
