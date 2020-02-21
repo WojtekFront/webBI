@@ -42,7 +42,7 @@ session_start();
 </script>  
 
     <link href="css/fontello.css" type="text/css" rel="stylesheet"> 
-    <link href="style/styleCsscopy.css" type="text/css" rel="stylesheet"> 
+    <link href="style/style.css" type="text/css" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Maven+Pro:400,500,600,900&display=swap&subset=latin-ext" rel="stylesheet">     
 
 </head>
